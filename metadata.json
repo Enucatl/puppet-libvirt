@@ -1,6 +1,6 @@
 {
   "name": "cirrax-libvirt",
-  "version": "5.0.3",
+  "version": "5.1.0",
   "author": "Cirrax GmbH",
   "summary": "Puppet module to install libvirt and create virtual domain configuration",
   "license": "GPL-3.0",
@@ -39,7 +39,8 @@
         "16.04",
         "18.04",
         "20.04",
-        "22.04"
+        "22.04",
+        "24.04"
       ]
     },
     {
@@ -69,7 +70,7 @@
     "drbd",
     "virtualization"
   ],
-  "pdk-version": "3.0.0",
-  "template-url": "pdk-default#3.0.0",
-  "template-ref": "tags/3.0.0-0-g056e50d"
+  "pdk-version": "3.4.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#main",
+  "template-ref": "heads/main-0-g1a55f8d"
 }
